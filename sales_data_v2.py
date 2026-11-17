@@ -6,4 +6,4 @@ sales = {
 }
 
 total_sales = sum(sales.values())
-print(f"Total sales across products: {total_cost}.")
+print(f"Total sales across products: {total_sales}.")
