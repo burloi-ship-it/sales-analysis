@@ -1,7 +1,7 @@
 # sales_data.py
 # Weekly sales data: [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday]
 sales_data = [230, 200, 310, 290, 400, 150, 180]
-print(f"Sales data for week: {sales_data}.)
+print(f"Sales data for week: {sales_data}")
 
 
 def total_sales(data):
@@ -15,8 +15,8 @@ def average_sales(data):
     return average
     
 result_total_sales = total_sales(sales_data)
-print(f"Total sales is: {result_total_sales}."}
+print(f"Total sales is: {result_total_sales}.")
 
 result_average_sales = average_sales(sales_data)
-print(f"Average sales is: {result_total_sales}.")
+print(f"Average sales is: {result_average_sales}.")
 

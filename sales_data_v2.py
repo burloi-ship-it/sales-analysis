@@ -5,5 +5,5 @@ sales = {
     "Smartwatches": 8700
 }
 
-total_cost = sum(sales.values())
-print(f"Total products cost in sub-branch is: {total_cost}.")
+total_sales = sum(sales.values())
+print(f"Total sales across products: {total_cost}.")
